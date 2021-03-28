@@ -47,7 +47,7 @@ def save():
             password_entry.delete(0, END)
 
 
-# ---------------------------- SAVE PASSWORD ------------------------------- #
+# ---------------------------- SEARCH PASSWORD ------------------------------- #
 def search():
     with open("data.json","r") as file:
         file = json.load(file)
